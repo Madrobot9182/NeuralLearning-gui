@@ -2,8 +2,7 @@
 
 > My personal Pytorch NN trainer and tester
 
-[![Python Version][python-image]][python-url]
-
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
 
 
 A simple UI made in QT6 to simplify my experimentation of Pytorch models. Saves the hassle of changing train/test code and generate performance graphs to compare multiple models at once.
@@ -56,7 +55,3 @@ This is a list of future features and bug fixes that I intend to work on wheneve
 Visit me here – [My Website](https://madrobot9182.github.io/)
 
 Currently not distributed under any license, I'll add one if this project gets more popular
-
-
-
-[python-image]: https://img.shields.io/pypi/pyversions/:packageName
