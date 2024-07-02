@@ -1,10 +1,10 @@
-# Product Name
+# NeuralLearning-gui
 
 > My personal Pytorch NN trainer and tester
 
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
 
-A simple UI made in QT6 to simplify my experimentation of Pytorch models. Saves the hassle of changing train/test code and generate performance graphs to compare multiple models at once.
+A simple UI made in QT6 to simplify my experimentations of Pytorch models. Saves the hassle of changing train/test code and generate performance graphs to compare multiple models at once.
 
 ![](example.png)
 
@@ -18,11 +18,11 @@ python3 NeuralLearning.py
 
 ## Usage example
 
-It's as easy as picking and choosing options from the dropdown menu and clicking on BEGIN. Each time you train a model, the results are automatically saved and ready to be graphed with the Display Result button. 
+It's as easy as picking and choosing options from the dropdown menu and clicking on `BEGIN`. Each time you train a model, the results are automatically saved and ready to be graphed with the `Display Result` button. 
 
-If you wish to use a GPU, ensure you have the revelent CUDA or ROCM drivers installed, and have the right pytorch package (pytorch-cuda or pytorch-rocm). Unfortunally AMD-Rocm support is really finicky and I had issues getting it working.
+If you wish to use a GPU, ensure you have the revelent CUDA or ROCM drivers, and have the corrosponding pytorch package (pytorch-cuda or pytorch-rocm). Unfortunally AMD-Rocm support is really finicky and I had issues getting it working.
 
-Eventually I intend to add a decicated folder where you can write Pytorch models. For now you'll have to ad models into the NN_models.py, then manually add it to the dropdown lists in app.py
+Eventually I intend to add a decicated folder where you can write your Pytorch models. For now you'll have to add models into the NN_models.py, then manually add it to the dropdown lists in app.py
 
 ## TODO
 
